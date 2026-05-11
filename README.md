@@ -44,5 +44,8 @@ npm run dev
 *The frontend will start on `http://localhost:5173`*
 
 ---
+## 🔮 Future Enhancements
+- Switch from H2 to a permanent database (MySQL)
+- Add Docker support
 
 > **Note:** Because this project uses an H2 in-memory database, all data will be reset when the backend server is restarted. This is intended for demonstration purposes.
