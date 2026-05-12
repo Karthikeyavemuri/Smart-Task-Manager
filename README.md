@@ -1,7 +1,4 @@
 # Smart Task Manager
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 A premium, modern, and dynamic Full-Stack Task Management application built to demonstrate enterprise-level architecture.
 
@@ -50,5 +47,8 @@ npm run dev
 ## 🔮 Future Enhancements
 - Switch from H2 to a permanent database (MySQL)
 - Add Docker support
+
+## 📄 License
+This project is licensed under the MIT License - feel free to use it for your own portfolio or learning purposes.
 
 > **Note:** Because this project uses an H2 in-memory database, all data will be reset when the backend server is restarted. This is intended for demonstration purposes.
