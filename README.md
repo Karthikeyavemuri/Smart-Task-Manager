@@ -56,4 +56,6 @@ npm run dev
 ## 📄 License
 This project is licensed under the MIT License - feel free to use it for your own portfolio or learning purposes.
 
-> **Note:** Because this project uses an H2 in-memory database, all data will be reset when the backend server is restarted. This is intended for demonstration purposes.
+**Status:** Active Development 🚀
+
+**Note:** Because this project uses an H2 in-memory database, all data will be reset when the backend server is restarted. This is intended for demonstration purposes.
