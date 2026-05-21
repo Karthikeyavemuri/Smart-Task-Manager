@@ -99,13 +99,13 @@ function Dashboard() {
       <Navbar variant="dark" className="glass-card mb-4 border-0 rounded-0 border-bottom border-top-0 border-start-0 border-end-0 px-4 py-3">
         <Container fluid>
           <Navbar.Brand className="fw-bold d-flex align-items-center gap-3">
-             <div style={{
-               width: 36, height: 36, 
-               borderRadius: '10px', 
-               background: 'linear-gradient(135deg, #6366f1, #a855f7)',
-               boxShadow: '0 4px 12px rgba(99, 102, 241, 0.4)'
-             }}></div>
-             <span style={{ fontSize: '1.25rem', letterSpacing: '-0.02em' }}>TaskFlow Pro</span>
+            <div style={{
+              width: 36, height: 36,
+              borderRadius: '10px',
+              background: 'linear-gradient(135deg, #6366f1, #a855f7)',
+              boxShadow: '0 4px 12px rgba(99, 102, 241, 0.4)'
+            }}></div>
+            <span style={{ fontSize: '1.25rem', letterSpacing: '-0.02em' }}>TaskFlow Pro</span>
           </Navbar.Brand>
           <div className="d-flex align-items-center gap-3">
             <span style={{ color: 'var(--text-secondary)' }}>Welcome, {user.username}</span>
@@ -137,16 +137,16 @@ function Dashboard() {
                   {tasks.length} Tasks
                 </div>
               </div>
-              
+
               {loading ? (
                 <div className="text-center py-5">
                   <div className="spinner-border text-primary" style={{ width: '3rem', height: '3rem' }} role="status"></div>
                 </div>
               ) : (
-                <TaskList 
-                  tasks={tasks} 
-                  onTaskUpdated={handleTaskUpdated} 
-                  onTaskDeleted={handleTaskDeleted} 
+                <TaskList
+                  tasks={tasks}
+                  onTaskUpdated={handleTaskUpdated}
+                  onTaskDeleted={handleTaskDeleted}
                 />
               )}
             </div>
@@ -164,13 +164,13 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route 
-            path="/" 
+          <Route
+            path="/"
             element={
               <PrivateRoute>
                 <Dashboard />
               </PrivateRoute>
-            } 
+            }
           />
         </Routes>
       </Router>
