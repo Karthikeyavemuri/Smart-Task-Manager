@@ -18,7 +18,12 @@ public class JwtUtils {
     private int jwtExpirationMs;
 
     private Key getSigningKey() {
-        return Keys.hmacShaKeyFor(jwtSecret.getBytes());
+        try {
+            byte[] keyBytes = java.security.MessageDigest.getInstance("SHA-256").digest(jwtSecret.getBytes());
+            return Keys.hmacShaKeyFor(keyBytes);
+        } catch (Exception e) {
+            throw new RuntimeException("Error generating JWT signing key", e);
+        }
     }
 
     public String generateJwtToken(Authentication authentication) {
