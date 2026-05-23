@@ -67,7 +67,7 @@ function AnalyticsDashboard({ tasks }) {
 
   const fetchAnalytics = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/api/tasks/analytics');
+      const response = await axios.get(`${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api/tasks/analytics`);
       setAnalytics(response.data);
     } catch (error) {
       console.error('Error fetching analytics:', error);

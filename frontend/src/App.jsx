@@ -51,7 +51,7 @@ function Dashboard() {
 
   const fetchTasks = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/api/tasks');
+      const response = await axios.get(`${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api/tasks`);
       setTasks(response.data);
     } catch (error) {
       console.error("Error fetching tasks:", error);
@@ -69,7 +69,7 @@ function Dashboard() {
 
   const handleTaskAdded = async (newTask) => {
     try {
-      const response = await axios.post('http://localhost:8080/api/tasks', newTask);
+      const response = await axios.post(`${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api/tasks`, newTask);
       setTasks([...tasks, response.data]);
     } catch (error) {
       console.error(error);
@@ -78,7 +78,7 @@ function Dashboard() {
 
   const handleTaskUpdated = async (updatedTask) => {
     try {
-      await axios.put(`http://localhost:8080/api/tasks/${updatedTask.id}`, updatedTask);
+      await axios.put(`${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api/tasks/${updatedTask.id}`, updatedTask);
       setTasks(tasks.map(t => t.id === updatedTask.id ? updatedTask : t));
     } catch (error) {
       console.error(error);
@@ -87,7 +87,7 @@ function Dashboard() {
 
   const handleTaskDeleted = async (id) => {
     try {
-      await axios.delete(`http://localhost:8080/api/tasks/${id}`);
+      await axios.delete(`${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api/tasks/${id}`);
       setTasks(tasks.filter(t => t.id !== id));
     } catch (error) {
       console.error(error);
