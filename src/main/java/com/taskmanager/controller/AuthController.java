@@ -68,4 +68,10 @@ public class AuthController {
 
         return ResponseEntity.ok("User registered successfully!");
     }
+
+    @GetMapping("/users")
+    public ResponseEntity<?> getAllUsers() {
+        java.util.List<String> usernames = userRepository.findAll().stream().map(User::getUsername).collect(java.util.stream.Collectors.toList());
+        return ResponseEntity.ok(usernames);
+    }
 }
