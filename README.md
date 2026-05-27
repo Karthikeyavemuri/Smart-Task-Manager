@@ -50,7 +50,7 @@ npm run dev
 
 ---
 ## 🔮 Future Enhancements
-- Switch from H2 to a permanent database (MySQL)
+- Switch from H2 to a permanent database (MySQL) 🗄️
 - Add Docker support 🐳
 
 ## 📄 License
