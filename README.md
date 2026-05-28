@@ -9,7 +9,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 
 ## 🚀 Features
 
-- **User Authentication:** Secure JWT-based login and registration system.
+- **User Authentication:** Secure JWT-based login and registration system. 🔒
 - **Task Management:** Create, update, and delete tasks seamlessly.
 - **Real-Time Analytics:** Dynamic dashboard calculating completion rates and filtering high-priority pending tasks.
 - **Premium UI/UX:** A stunning dark-mode interface built with React, styled-components, and modern glassmorphism design principles.
