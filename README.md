@@ -21,7 +21,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 - React (Vite) ⚡
 - React Router DOM (Navigation) 🧭
 - Styled-Components & React Bootstrap (Styling) 💅
-- Axios (API Communication)
+- Axios (API Communication) 📡
 
 **Backend:**
 - Java 17
