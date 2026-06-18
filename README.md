@@ -25,7 +25,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 
 **Backend:**
 - Java 17 ☕
-- Spring Boot 3
+- Spring Boot 3 🍃
 - Spring Security (JWT Authentication)
 - Spring Data JPA (Hibernate)
 - H2 In-Memory Database
