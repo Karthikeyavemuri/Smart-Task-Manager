@@ -24,7 +24,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 - Axios (API Communication) 📡
 
 **Backend:**
-- Java 17
+- Java 17 ☕
 - Spring Boot 3
 - Spring Security (JWT Authentication)
 - Spring Data JPA (Hibernate)
