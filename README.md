@@ -1,4 +1,4 @@
-# Smart Task Manager
+# Smart Task Manager 📋
 
 A premium, modern, and dynamic Full-Stack Task Management application built to demonstrate enterprise-level architecture.
 ## 🛠️ Technology Stack
