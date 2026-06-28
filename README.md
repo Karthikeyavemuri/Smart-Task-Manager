@@ -1,6 +1,6 @@
 # Smart Task Manager 📋
 
-A premium, modern, and dynamic Full-Stack Task Management application built to demonstrate enterprise-level architecture.
+A premium, modern, and dynamic Full-Stack Task Management application built to demonstrate enterprise-level architecture. ⭐
 ## 🛠️ Technology Stack
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
