@@ -30,7 +30,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 - Spring Data JPA (Hibernate) 💾
 - H2 In-Memory Database 🧪
 
-## 🏃‍♂️ How to Run Locally
+## 🏃‍♂️ Quickstart: How to Run Locally
 
 ### 1. Start the Backend (Spring Boot)
 Open your terminal in the root project folder and run:
