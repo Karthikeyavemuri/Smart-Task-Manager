@@ -32,7 +32,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 
 ## 🏃‍♂️ Quickstart: How to Run Locally
 
-### 1. Start the Backend (Spring Boot)
+### 1. Start the Backend Server (Spring Boot)
 Open your terminal in the root project folder and run:
 ```bash
 mvn spring-boot:run
