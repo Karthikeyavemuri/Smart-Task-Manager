@@ -39,7 +39,7 @@ mvn spring-boot:run
 ```
 *The backend will start on `http://localhost:8080`*
 
-### 2. Start the Frontend (React)
+### 2. Start the Frontend App (React)
 Open a separate terminal, navigate to the `frontend` folder, and run:
 ```bash
 cd frontend
