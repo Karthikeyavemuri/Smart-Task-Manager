@@ -15,7 +15,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 - **Premium UI/UX:** A stunning dark-mode interface built with React, styled-components, and modern glassmorphism design principles. 🎨
 - **Data Isolation:** User-specific task tracking ensuring complete data privacy. 🛡️
 
-## 💻 Tech Stack Details
+## 💻 Tech Stack Details 🔍
 
 **Frontend:**
 - React (Vite) ⚡
