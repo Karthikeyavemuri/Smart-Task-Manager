@@ -7,7 +7,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-## 🚀 Features
+## 🚀 Key Features
 
 - **User Authentication:** Secure JWT-based login and registration system. 🔒
 - **Task Management:** Create, update, and delete tasks seamlessly. ✅
