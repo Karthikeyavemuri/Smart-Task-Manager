@@ -49,7 +49,7 @@ npm run dev
 *The frontend will start on `http://localhost:5173`*
 
 ---
-## 🔮 Future Enhancements
+## 🔮 Planned Future Enhancements
 - Switch from H2 to a permanent database (MySQL) 🗄️
 - Add Docker support 🐳
 
