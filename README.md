@@ -53,7 +53,7 @@ npm run dev
 - Switch from H2 to a permanent database (MySQL) 🗄️
 - Add Docker support 🐳
 
-## 📄 License Details
+## 📄 License Details 📜
 This project is licensed under the MIT License - feel free to use it for your own portfolio or learning purposes.
 
 **Status:** Active Development 🚀✨⚙️
