@@ -58,7 +58,7 @@ This project is licensed under the MIT License - feel free to use it for your ow
 
 **Status:** Active Development 🚀✨⚙️
 
-## 🧠 What I Learned & Achieved
+## 🧠 What I Learned & Achieved 🎓
 Building this project taught me how to properly integrate a Java Spring Boot backend with a modern React frontend, and how to secure API endpoints using JWT authentication.
 
 **Note:** Because this project uses an H2 in-memory database, all data will be reset when the backend server is restarted. This is intended for demonstration purposes. 💡
