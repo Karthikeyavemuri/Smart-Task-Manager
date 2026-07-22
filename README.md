@@ -17,7 +17,7 @@ A premium, modern, and dynamic Full-Stack Task Management application built to d
 
 ## 💻 Tech Stack Details 🔍
 
-**Frontend:**
+**Frontend:** 🖥️
 - React (Vite) ⚡
 - React Router DOM (Navigation) 🧭
 - Styled-Components & React Bootstrap (Styling) 💅
